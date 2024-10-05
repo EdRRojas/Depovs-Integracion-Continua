@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Debops.ConsoleApp", "Depovs-Integracion-Continua\Debops.ConsoleApp.csproj", "{7CDDB025-0CDD-4B99-81DB-023ACCEC87E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devops.ConsoleApp", "Depovs-Integracion-Continua\Devops.ConsoleApp.csproj", "{7CDDB025-0CDD-4B99-81DB-023ACCEC87E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devops.UnitTest", "Devops-UnitTest\Devops.UnitTest.csproj", "{B04A5C58-DE00-4F0E-83EC-8457586639D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7CDDB025-0CDD-4B99-81DB-023ACCEC87E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CDDB025-0CDD-4B99-81DB-023ACCEC87E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CDDB025-0CDD-4B99-81DB-023ACCEC87E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B04A5C58-DE00-4F0E-83EC-8457586639D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B04A5C58-DE00-4F0E-83EC-8457586639D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B04A5C58-DE00-4F0E-83EC-8457586639D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B04A5C58-DE00-4F0E-83EC-8457586639D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
