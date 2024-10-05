@@ -1,4 +1,4 @@
-name: .NET Core CI
+name: Devops_UnitTest
 
 on:
   push:
@@ -12,22 +12,23 @@ on:
 
 jobs:
   build:
+
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out the repository
+    - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: '6.0.x'
+        dotnet-version: '6.0.x' 
 
-    - name: Install dependencies
+    - name: Restore dependencies
       run: dotnet restore
 
     - name: Build the project
-      run: dotnet build --configuration Release
+      run: dotnet build --no-restore
 
     - name: Run tests
-      run: dotnet test ./Depovs-Integracion-Continua.sln --verbosity normal
+      run: dotnet test --no-build --verbosity normal
