@@ -3,12 +3,12 @@ name: .NET Core CI
 on:
   push:
     branches:
-      - main
-      - dev
+      - master
+      - Dev
   pull_request:
     branches:
-      - main
-      - dev
+      - master
+      - Dev
 
 jobs:
   build:
