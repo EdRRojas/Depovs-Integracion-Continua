@@ -5,7 +5,7 @@ namespace Devops.ConsoleApp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("GoodBye World");
         }
     }
 }
