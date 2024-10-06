@@ -1,7 +1,6 @@
 using Xunit;
 using System.IO;
 using Devops.ConsoleApp;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace Devops.UnitTest
 {
